@@ -1,0 +1,150 @@
+:root {
+  --grid-column-wdth: 172px;
+  --grid-gutter-width: 8px;
+}
+
+html {
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: #a1a8ae;
+  background-image: url('../img/background.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+body {
+  height: 100%;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.animated {
+  animation-duration: 0.4s;
+}
+
+ul.icons {
+  list-style: none;
+  margin: 30px 0;
+  padding: 0;
+  display: grid;
+  grid-gap: 0 var(--grid-gutter-width);
+  grid-template-columns: repeat(2, var(--grid-column-wdth));
+  justify-items: center;
+}
+
+li.icon {
+  height: 192px;
+  padding: 7px 7px;
+  background-image: url('../img/box-shadow.png');
+  background-repeat: no-repeat;
+}
+
+li.icon > a {
+  position: relative;
+  display: block;
+  width: 156px;
+  height: 156px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+li.icon > a > img {
+  width: 156px;
+  height: 156px;
+}
+
+li.icon > a:not(:hover):before {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/gradient-light.png');
+  background-repeat: no-repeat;
+  border-radius: 15px;
+}
+
+li.icon > a:not(:hover):after {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/sheen.png');
+  background-repeat: no-repeat;
+}
+
+li.facebook > a {
+  background-color: #2a4880;
+}
+
+li.newsblur > a {
+  background-color: #f9eeb0;
+}
+
+li.amazon > a {
+  background-color: #1b1919;
+}
+
+li.yelp > a {
+  background-color: #a60200;
+}
+
+li.hbo-now > a {
+  background-color: #000;
+}
+
+li.npm > a {
+  background-color: #cc3534;
+}
+
+/* Three 172px columns + two 8px gutters = 532px */
+@media (min-width: 532px) {
+  ul.icons {
+    grid-template-columns: repeat(3, var(--grid-column-wdth));
+  }
+}
+
+/* Four 172px columns + three 8px gutters = 712px */
+@media (min-width: 712px) {
+  ul.icons {
+    grid-template-columns: repeat(4, var(--grid-column-wdth));
+  }
+}
+
+/* Five 172px columns + four 8px gutters = 892px */
+@media (min-width: 892px) {
+  ul.icons {
+    grid-template-columns: repeat(5, var(--grid-column-wdth));
+  }
+}
+
+/* Six 172px columns + five 8px gutters = 1072px */
+@media (min-width: 1072px) {
+  ul.icons {
+    grid-template-columns: repeat(6, var(--grid-column-wdth));
+  }
+}
+
+/* The background image is 1900px wide, so stretch it if the window is wider than that */
+@media (min-width: 1900px) {
+  html {
+    background-size: cover;
+  }
+}
