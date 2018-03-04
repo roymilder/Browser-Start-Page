@@ -25,3 +25,9 @@ And on Windows, you would browse to something like this:
 ```
 file:///C:/Users/James%20Messinger/Code/browser-start-page/index.html
 ```
+
+
+License
+------------------------------------
+Everything I wrote myself is [MIT licensed](http://opensource.org/licenses/MIT) and can be used however you want.  I use [Animate.css](https://daneden.github.io/animate.css/) for the animations, which is also [open-source](https://github.com/daneden/animate.css).  The logo images obviously contain copyrighted material.
+
