@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>James's Start Page</title>
+
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <ul id="iconList" class="icons hidden">
+
+
+
+      <li class="icon gmail">
+        <a title="GMail" href="https://mail.google.com/mail/">
+          <img src="img/icons/gmail.png">
+        </a>
+      </li>
+      <li class="icon google-calendar">
+        <a title="Google Calendar" href="https://calendar.google.com">
+          <img src="img/icons/google-calendar.png">
+        </a>
+      </li>
+      <li class="icon google-contacts">
+        <a title="Google Contacts" href="https://contacts.google.com/">
+          <img src="img/icons/google-contacts.png">
+        </a>
+      </li>
+      <li class="icon google-keep">
+        <a title="Google Keep" href="https://keep.google.com">
+          <img src="img/icons/google-keep.png">
+        </a>
+      </li>
+      <li class="icon google-drive">
+        <a title="Google Drive" href="https://drive.google.com">
+          <img src="img/icons/google-drive.png">
+        </a>
+      </li>
+      <li class="icon google-maps">
+        <a title="Google Maps" href="https://maps.google.com">
+          <img src="img/icons/google-maps.png">
+        </a>
+      </li>
+
+
+
+      <li class="icon facebook">
+        <a title="Facebook" href="https://www.facebook.com/messages/t/rkrauskopf">
+          <img src="img/icons/facebook.png">
+        </a>
+      </li>
+      <li class="icon twitter">
+        <a title="Twitter" href="https://twitter.com/BigstickCarpet">
+          <img src="img/icons/twitter.png">
+        </a>
+      </li>
+      <li class="icon newsblur">
+        <a title="Newsblur" href="https://www.newsblur.com/">
+          <img src="img/icons/newsblur.png">
+        </a>
+      </li>
+      <li class="icon reddit">
+        <a title="Reddit" href="https://www.reddit.com/">
+          <img src="img/icons/reddit.png">
+        </a>
+      </li>
+      <li class="icon amazon">
+        <a title="Amazon" href="https://smile.amazon.com">
+          <img src="img/icons/amazon.png">
+        </a>
+      </li>
+      <li class="icon yelp">
+        <a title="Yelp" href="http://www.yelp.com">
+          <img src="img/icons/yelp.png">
+        </a>
+      </li>
+
+
+
+      <li class="icon jira">
+        <a title="JIRA" href="https://shipstation.atlassian.net/secure/RapidBoard.jspa?rapidView=87&projectKey=ENGINE">
+          <img src="img/icons/jira.png">
+        </a>
+      </li>
+      <li class="icon npm">
+        <a title="npm" href="https://www.npmjs.com/~bigstickcarpet">
+          <img src="img/icons/npm.png">
+        </a>
+      </li>
+      <li class="icon github">
+        <a title="GitHub" href="http://bigstickcarpet.com/health-check/">
+          <img src="img/icons/github.png">
+        </a>
+      </li>
+      <li class="icon travis-ci">
+        <a title="Travis CI" href="https://travis-ci.org/BigstickCarpet">
+          <img src="img/icons/travis-ci.png">
+        </a>
+      </li>
+      <li class="icon appveyor">
+        <a title="AppVeyor" href="https://ci.appveyor.com/projects">
+          <img src="img/icons/appveyor.png">
+        </a>
+      </li>
+      <li class="icon aws">
+        <a title="Amazon Web Services" href="https://bigstickcarpet.signin.aws.amazon.com/console">
+          <img src="img/icons/aws.png">
+        </a>
+      </li>
+
+
+
+      <li class="icon netflix">
+        <a title="Netflix" href="http://www.netflix.com/">
+          <img src="img/icons/netflix.png">
+        </a>
+      </li>
+      <li class="icon hbo-now">
+        <a title="HBO Now" href="http://www.hbonow.com">
+          <img src="img/icons/hbo-now.png">
+        </a>
+      </li>
+      <li class="icon usaa">
+        <a title="USAA" href="https://www.usaa.com/inet/ent_logon/Logon?redirectjsp=true">
+          <img src="img/icons/usaa.png">
+        </a>
+      </li>
+      <li class="icon td-ameritrade">
+        <a title="TD Ameritrade" href="https://www.advisorclient.com/advisorclient/p/gridLogin">
+          <img src="img/icons/td-ameritrade.png">
+        </a>
+      </li>
+      <li class="icon credit-karma">
+        <a title="USAA" href="https://www.creditkarma.com">
+          <img src="img/icons/credit-karma.png">
+        </a>
+      </li>
+      <li class="icon">
+        <a title="" href="">
+        </a>
+      </li>
+
+
+
+    </ul>
+
+    <script>
+      // Wait until all the stylesheets and images have loaded before showing the icons.
+      // This prevents a Flash of Unstyled Content (FOUC) and makes the animation less jerky,
+      // since it's not loading images at the same time as animating
+      window.onload = () => {
+        let iconList = document.getElementById('iconList');
+        iconList.classList.remove('hidden');
+
+        // Some really cool animations are:
+        // flip, swing, jackInTheBox, rotateIn, tada, zoomIn, bounceInUp, flipInX,  flipInY, pulse
+        iconList.classList.add('animated', 'zoomIn');
+      };
+    </script>
+  </body>
+</html>
