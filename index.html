@@ -16,12 +16,12 @@
 
 
       <li class="icon gmail">
-        <a title="GMail" href="https://mail.google.com/mail/">
+        <a title="GMail (personal)" href="https://mail.google.com/mail/u/0" data-alt-href="https://mail.google.com/mail/u/1">
           <img src="img/icons/gmail.png">
         </a>
       </li>
       <li class="icon google-calendar">
-        <a title="Google Calendar" href="https://calendar.google.com">
+        <a title="Google Calendar" href="https://calendar.google.com/b/0" data-alt-href="https://calendar.google.com/b/1">
           <img src="img/icons/google-calendar.png">
         </a>
       </li>
@@ -36,7 +36,7 @@
         </a>
       </li>
       <li class="icon google-drive">
-        <a title="Google Drive" href="https://drive.google.com">
+        <a title="Google Drive" href="https://drive.google.com/u/0" data-alt-href="https://drive.google.com/u/1">
           <img src="img/icons/google-drive.png">
         </a>
       </li>
@@ -149,18 +149,6 @@
 
     </ul>
 
-    <script>
-      // Wait until all the stylesheets and images have loaded before showing the icons.
-      // This prevents a Flash of Unstyled Content (FOUC) and makes the animation less jerky,
-      // since it's not loading images at the same time as animating
-      window.onload = () => {
-        let iconList = document.getElementById('iconList');
-        iconList.classList.remove('hidden');
-
-        // Some really cool animations are:
-        // flip, swing, jackInTheBox, rotateIn, tada, zoomIn, bounceInUp, flipInX,  flipInY, pulse
-        iconList.classList.add('animated', 'zoomIn');
-      };
-    </script>
+    <script src="js/script.js"></script>
   </body>
 </html>
