@@ -2,7 +2,7 @@ Custom Browser Start Page
 ------------------------------------
 This is repository is a simple HTML + CSS web page that I use as the start page and new tab page for all of my web browsers.
 
-[**See it live right here**](http://bigstickcarpet.com/Browser-Start-Page/)
+[**See it live right here**](https://jamesmessinger.com/Browser-Start-Page/)
 
 ### Features
 
@@ -28,7 +28,7 @@ Installation and Usage
 You're welcome to fork this repo and modify it to suit your needs.  Here's what you need to do to get it working:
 
 1. __Clone this repo__<br>
-`git clone https://github.com/bigstickcarpet/Browser-Start-Page.git`
+`git clone https://github.com/James-Messinger/Browser-Start-Page.git`
 
 
 2. __Modify the icons as you wish__<br>
@@ -51,4 +51,3 @@ file:///C:/Users/James%20Messinger/Code/browser-start-page/index.html
 License
 ------------------------------------
 Everything I wrote myself is [MIT licensed](http://opensource.org/licenses/MIT) and can be used however you want.  I use [Animate.css](https://daneden.github.io/animate.css/) for the animations, which is also [open-source](https://github.com/daneden/animate.css).  The logo images obviously contain copyrighted material.
-
