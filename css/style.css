@@ -34,7 +34,7 @@ body {
   animation-duration: 0.4s;
 }
 
-ul.icons {
+ul.tiles {
   list-style: none;
   margin: 30px 0;
   padding: 0;
@@ -44,14 +44,14 @@ ul.icons {
   justify-items: center;
 }
 
-li.icon {
+li.tile {
   height: 192px;
   padding: 7px 7px;
   background-image: url('../img/box-shadow.png');
   background-repeat: no-repeat;
 }
 
-li.icon > a {
+li.tile > a {
   position: relative;
   display: block;
   width: 156px;
@@ -60,12 +60,23 @@ li.icon > a {
   overflow: hidden;
 }
 
-li.icon > a > img {
+li.tile > a > img.tile {
+  z-index: 1;
   width: 156px;
   height: 156px;
 }
 
-li.icon > a:not(:hover):before {
+li.tile > a > img.icon {
+  position: absolute;
+  z-index: 2;
+  bottom: -5px;
+  right: -5px;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+}
+
+li.tile > a:not(:hover):before {
   content: '';
   position: absolute;
   display: block;
@@ -78,7 +89,7 @@ li.icon > a:not(:hover):before {
   border-radius: 15px;
 }
 
-li.icon > a:not(:hover):after {
+li.tile > a:not(:hover):after {
   content: '';
   position: absolute;
   display: block;
@@ -116,28 +127,28 @@ li.npm > a {
 
 /* Three 172px columns + two 8px gutters = 532px */
 @media (min-width: 532px) {
-  ul.icons {
+  ul.tiles {
     grid-template-columns: repeat(3, var(--grid-column-wdth));
   }
 }
 
 /* Four 172px columns + three 8px gutters = 712px */
 @media (min-width: 712px) {
-  ul.icons {
+  ul.tiles {
     grid-template-columns: repeat(4, var(--grid-column-wdth));
   }
 }
 
 /* Five 172px columns + four 8px gutters = 892px */
 @media (min-width: 892px) {
-  ul.icons {
+  ul.tiles {
     grid-template-columns: repeat(5, var(--grid-column-wdth));
   }
 }
 
 /* Six 172px columns + five 8px gutters = 1072px */
 @media (min-width: 1072px) {
-  ul.icons {
+  ul.tiles {
     grid-template-columns: repeat(6, var(--grid-column-wdth));
   }
 }
