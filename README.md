@@ -28,7 +28,7 @@ Installation and Usage
 You're welcome to fork this repo and modify it to suit your needs.  Here's what you need to do to get it working:
 
 1. __Clone this repo__<br>
-`git clone https://github.com/James-Messinger/Browser-Start-Page.git`
+`git clone https://github.com/JamesMessinger/Browser-Start-Page.git`
 
 
 2. __Modify the icons as you wish__<br>
