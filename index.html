@@ -11,212 +11,30 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+    <ol id="slots" class="slots">
+      <li class="slot">
+        <img class="icon" data-slot="0" src="img/icons/jamesmessinger.png" title="Personal">
+      </li>
+      <li class="slot">
+        <img class="icon" data-slot="1" src="img/icons/shipengine.png" title="ShipEngine">
+      </li>
+      <li class="slot">
+        <img class="icon" data-slot="2" src="img/icons/apidevtools.png" title="APIDevTools">
+      </li>
+      <li class="slot">
+        <img class="icon" data-slot="3" src="img/icons/jsdevtools.png" title="JS-DevTools">
+      </li>
+    </ol>
+
+
     <ul id="tileList" class="tiles hidden">
-
-
-
-      <li class="tile gmail">
-        <a title="GMail"
-          data-href-1="https://mail.google.com/mail/u/0"
-          data-href-2="https://mail.google.com/mail/u/1">
-          <img class="tile" src="img/tiles/gmail.png">
-          <img class="icon"
-            data-src-1="img/icons/jamesmessinger.png"
-            data-src-2="img/icons/shipengine.png">
+      <!--
+      <li class="tile xxxx">
+        <a title="Xxxx" href="xxxxxx">
+          <img class="tile" src="img/tiles/xxxx.png">
         </a>
       </li>
-      <li class="tile google-calendar">
-        <a title="Google Calendar"
-          data-href-1="https://calendar.google.com/b/0"
-          data-href-2="https://calendar.google.com/b/1">
-          <img class="tile" src="img/tiles/google-calendar.png">
-          <img class="icon"
-            data-src-1="img/icons/jamesmessinger.png"
-            data-src-2="img/icons/shipengine.png">
-        </a>
-      </li>
-      <li class="tile google-contacts">
-        <a title="Google Contacts" href="https://contacts.google.com/">
-          <img class="tile" src="img/tiles/google-contacts.png">
-        </a>
-      </li>
-      <li class="tile google-keep">
-        <a title="Google Keep" href="https://keep.google.com">
-          <img class="tile" src="img/tiles/google-keep.png">
-        </a>
-      </li>
-      <li class="tile google-drive">
-        <a title="Google Drive"
-          data-href-1="https://drive.google.com/u/0"
-          data-href-2="https://drive.google.com/u/1">
-          <img class="tile" src="img/tiles/google-drive.png">
-          <img class="icon"
-            data-src-1="img/icons/jamesmessinger.png"
-            data-src-2="img/icons/shipengine.png">
-        </a>
-      </li>
-      <li class="tile google-maps">
-        <a title="Google Maps" href="https://maps.google.com">
-          <img class="tile" src="img/tiles/google-maps.png">
-        </a>
-      </li>
-
-
-
-      <li class="tile messenger">
-        <a title="Android Messenger" href="https://messages.android.com/">
-          <img class="tile" src="img/tiles/android-messenger.png">
-        </a>
-      </li>
-      <li class="tile facebook">
-        <a title="Facebook" href="https://www.facebook.com/messages/t/rkrauskopf">
-          <img class="tile" src="img/tiles/facebook.png">
-        </a>
-      </li>
-      <li class="tile twitter">
-        <a title="Twitter" href="https://twitter.com/James_Messinger">
-          <img class="tile" src="img/tiles/twitter.png">
-        </a>
-      </li>
-      <li class="tile yelp">
-        <a title="Yelp" href="http://www.yelp.com">
-          <img class="tile" src="img/tiles/yelp.png">
-        </a>
-      </li>
-      <li class="tile newsblur">
-        <a title="Newsblur" href="https://www.newsblur.com/">
-          <img class="tile" src="img/tiles/newsblur.png">
-        </a>
-      </li>
-      <li class="tile reddit">
-        <a title="Reddit" href="https://www.reddit.com/">
-          <img class="tile" src="img/tiles/reddit.png">
-        </a>
-      </li>
-
-
-
-      <li class="tile jira">
-        <a title="JIRA" href="https://shipstation.atlassian.net/secure/RapidBoard.jspa?rapidView=87&projectKey=ENGINE">
-          <img class="tile" src="img/tiles/jira.png">
-          <img class="icon" src="img/icons/shipengine.png">
-        </a>
-      </li>
-      <li class="tile npm">
-        <a title="npm"
-          data-href-1="https://www.npmjs.com/~jamesmessinger"
-          data-href-3="https://www.npmjs.com/org/apidevtools"
-          data-href-4="https://www.npmjs.com/org/jsdevtools">
-          <img class="tile" src="img/tiles/npm.png">
-          <img class="icon"
-            data-src-1="img/icons/jamesmessinger.png"
-            data-src-3="img/icons/apidevtools.png"
-            data-src-4="img/icons/jsdevtools.png">
-        </a>
-      </li>
-      <li class="tile github">
-        <a title="GitHub"
-          data-href-1="https://github.com/JamesMessinger/"
-          data-href-2="https://github.com/ShipStation/"
-          data-href-3="https://github.com/APIDevTools/"
-          data-href-4="https://github.com/JS-DevTools/">
-          <img class="tile" src="img/tiles/github.png">
-          <img class="icon"
-            data-src-1="img/icons/jamesmessinger.png"
-            data-src-2="img/icons/shipengine.png"
-            data-src-3="img/icons/apidevtools.png"
-            data-src-4="img/icons/jsdevtools.png">
-        </a>
-      </li>
-      <li class="tile travis-ci">
-        <a title="Travis CI"
-          data-href-1="https://travis-ci.org/JamesMessinger"
-          data-href-3="https://travis-ci.org/APIDevTools"
-          data-href-4="https://travis-ci.org/JS-DevTools">
-          <img class="tile" src="img/tiles/travis-ci.png">
-          <img class="icon"
-            data-src-1="img/icons/jamesmessinger.png"
-            data-src-3="img/icons/apidevtools.png"
-            data-src-4="img/icons/jsdevtools.png">
-        </a>
-      </li>
-      <li class="tile appveyor">
-        <a title="AppVeyor" href="https://ci.appveyor.com/projects">
-          <img class="tile" src="img/tiles/appveyor.png">
-        </a>
-      </li>
-      <li class="tile aws">
-        <a title="Amazon Web Services" href="https://JamesMessinger.signin.aws.amazon.com/console">
-          <img class="tile" src="img/tiles/aws.png">
-        </a>
-      </li>
-
-
-
-      <li class="tile hulu">
-        <a title="Hulu" href="https://hulu.com">
-          <img class="tile" src="img/tiles/hulu.png">
-        </a>
-      </li>
-      <li class="tile amazon-prime-video">
-        <a title="Amazon Prime Video" href="https://smile.amazon.com/Amazon-Video/b/ref=topnav_storetab_atv?node=2858778011&ie=UTF8">
-          <img class="tile" src="img/tiles/amazon-prime-video.png">
-        </a>
-      </li>
-      <li class="tile hbo-now">
-        <a title="HBO Now" href="http://www.hbonow.com">
-          <img class="tile" src="img/tiles/hbo-now.png">
-        </a>
-      </li>
-      <li class="tile netflix">
-        <a title="Netflix" href="http://www.netflix.com/">
-          <img class="tile" src="img/tiles/netflix.png">
-        </a>
-      </li>
-      <li class="tile">
-        <a title=""></a>
-      </li>
-      <li class="tile amazon">
-        <a title="Amazon" href="https://smile.amazon.com">
-          <img class="tile" src="img/tiles/amazon.png">
-        </a>
-      </li>
-
-
-
-      <li class="tile usaa">
-        <a title="USAA" href="https://www.usaa.com/inet/ent_logon/Logon?redirectjsp=true">
-          <img class="tile" src="img/tiles/usaa.png">
-        </a>
-      </li>
-      <li class="tile vanguard">
-        <a title="Vanguard" href="https://investor.vanguard.com/my-account/log-on">
-          <img class="tile" src="img/tiles/vanguard.jpg">
-        </a>
-      </li>
-      <li class="tile td-ameritrade">
-        <a title="TD Ameritrade" href="https://www.tdameritrade.com/home.page">
-          <img class="tile" src="img/tiles/td-ameritrade.png">
-        </a>
-      </li>
-      <li class="tile coinbase">
-        <a title="Coinbase" href="https://www.coinbase.com/signin">
-          <img class="tile" src="img/tiles/coinbase.png">
-        </a>
-      </li>
-      <li class="tile personal-capital">
-        <a title="Personal Capital" href="https://personalcapital.com">
-          <img class="tile" src="img/tiles/personal-capital.png">
-        </a>
-      </li>
-      <li class="tile credit-karma">
-        <a title="USAA" href="https://www.creditkarma.com">
-          <img class="tile" src="img/tiles/credit-karma.png">
-        </a>
-      </li>
-
-
-
+      -->
     </ul>
 
     <script src="js/script.js"></script>

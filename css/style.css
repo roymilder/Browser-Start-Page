@@ -34,9 +34,39 @@ body {
   animation-duration: 0.4s;
 }
 
+ol.slots {
+  position: absolute;
+  top: 25px;
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+li.slot {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+ol.slots.slot-0 > li:nth-child(1),
+ol.slots.slot-1 > li:nth-child(2),
+ol.slots.slot-2 > li:nth-child(3),
+ol.slots.slot-3 > li:nth-child(4) {
+  border-bottom: solid 4px silver;
+}
+
+li.slot > img.icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  border: solid 1px white;
+  cursor: pointer;
+}
+
 ul.tiles {
   list-style: none;
-  margin: 30px 0;
+  margin: 100px 0;
   padding: 0;
   display: grid;
   grid-gap: 0 var(--grid-gutter-width);
