@@ -31,10 +31,10 @@ body {
 }
 
 .animated {
-  animation-duration: 0.4s;
+  animation-duration: 0.25s;
 }
 
-ol.slots {
+ol.tabs {
   position: absolute;
   top: 25px;
   width: 100%;
@@ -44,24 +44,33 @@ ol.slots {
   text-align: center;
 }
 
-li.slot {
+li.tab {
   display: inline-block;
-  margin: 0 10px;
+  margin: 0;
+  padding: 0;
 }
 
-ol.slots.slot-0 > li:nth-child(1),
-ol.slots.slot-1 > li:nth-child(2),
-ol.slots.slot-2 > li:nth-child(3),
-ol.slots.slot-3 > li:nth-child(4) {
+ol.tabs.tab-0 > li:nth-child(1),
+ol.tabs.tab-1 > li:nth-child(2),
+ol.tabs.tab-2 > li:nth-child(3),
+ol.tabs.tab-3 > li:nth-child(4) {
   border-bottom: solid 4px silver;
 }
 
-li.slot > img.icon {
+li.tab > img.icon {
   height: 50px;
   width: 50px;
   border-radius: 50px;
   border: solid 1px white;
   cursor: pointer;
+  margin: 10px;
+}
+
+li.tab:hover > img.icon {
+  height: 60px;
+  width: 60px;
+  border-radius: 60px;
+  margin: 5px;
 }
 
 ul.tiles {
