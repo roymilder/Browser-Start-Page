@@ -69,6 +69,7 @@ window.onload =function() {
       { name: 'github', title: 'GitHub', href: 'https://github.com/APIDevTools/' },
       { name: 'travis-ci', title: 'Travis CI', href: 'https://travis-ci.org/APIDevTools' },
       { name: 'appveyor', title: 'AppVeyor', href: 'https://ci.appveyor.com/projects' },
+      { name: 'coveralls', title: 'Coveralls', href: 'https://coveralls.io/github/APIDevTools' },
     ],
 
     // JS-DevTools
@@ -78,6 +79,7 @@ window.onload =function() {
       { name: 'github', title: 'GitHub', href: 'https://github.com/JS-DevTools/' },
       { name: 'travis-ci', title: 'Travis CI', href: 'https://travis-ci.org/JS-DevTools' },
       { name: 'appveyor', title: 'AppVeyor', href: 'https://ci.appveyor.com/projects' },
+      { name: 'coveralls', title: 'Coveralls', href: 'https://coveralls.io/github/JS-DevTools' },
     ],
   ];
 
