@@ -51,11 +51,12 @@ window.onload =function() {
 
       { name: 'shipengine', title: 'ShipEngine Docs', href: 'https://docs.shipengine.com/docs' },
       { name: 'readme', title: 'ReadMe.io', href: 'https://dash.readme.io/project/shipengine-docs/v1/dashboard' },
+      { name: 'fullstory', title: 'FullStory', href: 'https://app.fullstory.com/ui/60D9T/segments/chris.ivester@shipstation.com:5741031244955648/people/0' },
       { name: 'statuspage', title: 'Status Page', href: 'https://shipengine.statuspage.io/' },
       { name: 'looker', title: 'Looker', href: 'https://shipstation.looker.com/browse' },
       { name: 'kibana', title: 'Kibana', href: `https://elk.shipengine.com/app/kibana#/dashboard/8f796f95-a9e7-4834-9a03-c9f10fd8ce1a?_g=(refreshInterval:(display:Off,pause:!f,value:0),time:(from:now-24h,mode:quick,to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(darkTheme:!t,useMargins:!f),panels:!((gridData:(h:2,i:'1',w:2,x:0,y:6),id:'8cfdd4c9-edb4-465d-ac75-5185dc007d76',panelIndex:'1',type:visualization,version:'6.1.0'),(gridData:(h:2,i:'3',w:2,x:2,y:6),id:'3a903cca-ccd1-4d49-9a5f-35cfa66a3d67',panelIndex:'3',type:visualization,version:'6.1.0'),(gridData:(h:2,i:'4',w:2,x:2,y:4),id:'4a8e87b3-819f-4eec-b4b3-d4d8cb59453b',panelIndex:'4',type:visualization,version:'6.1.0'),(gridData:(h:4,i:'5',w:6,x:0,y:0),id:'0ee13443-fb9c-4c67-9b5a-e28d1c9114a1',panelIndex:'5',type:visualization,version:'6.1.0'),(gridData:(h:4,i:'6',w:6,x:0,y:8),id:'4953aa89-6d1c-410e-a26b-7ff50890f862',panelIndex:'6',type:visualization,version:'6.1.0'),(gridData:(h:3,i:'7',w:2,x:6,y:8),id:c93771ad-63cd-4318-8d36-b8e37e851b54,panelIndex:'7',type:visualization,version:'6.1.0'),(gridData:(h:2,i:'8',w:2,x:0,y:4),id:d5408111-2880-43e3-bd1c-0929a84033af,panelIndex:'8',type:visualization,version:'6.1.0'),(gridData:(h:2,i:'10',w:2,x:4,y:4),id:a2355206-f9d8-4074-adfe-22c0591d2d41,panelIndex:'10',type:visualization,version:'6.1.0'),(gridData:(h:4,i:'11',w:6,x:6,y:0),id:bbf171e3-db6a-4925-b412-a335a29e553f,panelIndex:'11',type:visualization,version:'6.1.0'),(gridData:(h:4,i:'12',w:6,x:6,y:4),id:'975547ed-23a9-4380-9c96-73d004a762ba',panelIndex:'12',type:visualization,version:'6.1.0'),(gridData:(h:4,i:'13',w:3,x:6,y:11),id:'2281c5ac-1be1-4de8-b8be-891b9bec3ea6',panelIndex:'13',type:visualization,version:'6.1.0'),(gridData:(h:3,i:'14',w:2,x:8,y:8),id:f71b9393-8263-4f14-ad5a-2c86479fa825,panelIndex:'14',type:visualization,version:'6.1.0'),(gridData:(h:3,i:'15',w:2,x:10,y:8),id:'30b86267-af45-4749-a474-c198d7e3702a',panelIndex:'15',type:visualization,version:'6.1.0'),(gridData:(h:2,i:'16',w:2,x:4,y:6),id:'12eed178-a1a3-44eb-8f3b-e0a096c662ca',panelIndex:'16',type:visualization,version:'6.1.0'),(gridData:(h:3,i:'17',w:6,x:0,y:12),id:AWANzPmdXTX2-7OItHd-,panelIndex:'17',type:visualization,version:'6.1.0')),query:(language:lucene,query:''),timeRestore:!f,title:'ShipEngine%20Production%20Analytics',uiState:(P-1:(vis:(defaultColors:('0%20-%20100':'rgb(0,104,55)'))),P-10:(vis:(defaultColors:('0%20-%20100':'rgb(0,104,55)'))),P-11:(spy:(mode:(fill:!f,name:!n)),vis:(legendOpen:!t)),P-14:(vis:(params:(sort:(columnIndex:!n,direction:!n)))),P-15:(vis:(params:(sort:(columnIndex:!n,direction:!n)))),P-16:(vis:(defaultColors:('0%20-%20100':'rgb(0,104,55)'))),P-3:(vis:(defaultColors:('0%20-%20100':'rgb(0,104,55)'))),P-4:(vis:(defaultColors:('0%20-%20100':'rgb(0,104,55)'))),P-7:(vis:(params:(sort:(columnIndex:!n,direction:!n)))),P-8:(vis:(defaultColors:('0%20-%20100':'rgb(0,104,55)')))),viewMode:view)` },
-      { name: '', title: '', href: '' },
 
+      { name: '', title: '', href: '' },
       { name: 'adp', title: 'Pay Stubs', href: 'https://online.adp.com/ipay/login.html' },
       { name: 'vanguard', title: '401k', href: 'https://my.vanguardplan.com/' },
       { name: 'charles-schwab', title: 'Employee Stock Purchace Plan', href: 'https://eac.schwab.com/' },
@@ -70,6 +71,9 @@ window.onload =function() {
       { name: 'travis-ci', title: 'Travis CI', href: 'https://travis-ci.org/APIDevTools' },
       { name: 'appveyor', title: 'AppVeyor', href: 'https://ci.appveyor.com/projects' },
       { name: 'coveralls', title: 'Coveralls', href: 'https://coveralls.io/github/APIDevTools' },
+
+      { name: 'google', title: 'Google Search Console', href: 'https://search.google.com/search-console?resource_id=https%3A%2F%2Fapidevtools.org%2F' },
+      { name: 'google-analytics', title: 'Google Analytics', href: 'https://analytics.google.com/analytics/web/#/report-home/a68102273w185957515p183035844' },
     ],
 
     // JS-DevTools
@@ -80,6 +84,9 @@ window.onload =function() {
       { name: 'travis-ci', title: 'Travis CI', href: 'https://travis-ci.org/JS-DevTools' },
       { name: 'appveyor', title: 'AppVeyor', href: 'https://ci.appveyor.com/projects' },
       { name: 'coveralls', title: 'Coveralls', href: 'https://coveralls.io/github/JS-DevTools' },
+
+      { name: 'google', title: 'Google Search Console', href: 'https://search.google.com/search-console?resource_id=https%3A%2F%2Fjsdevtools.org%2F' },
+      { name: 'google-analytics', title: 'Google Analytics', href: 'https://analytics.google.com/analytics/web/#/report-home/a68102273w186217806p183251220' },
     ],
   ];
 
