@@ -19,7 +19,7 @@ window.onload =function() {
       { name: 'amazon', title: 'Amazon', href: 'https://smile.amazon.com' },
 
       { name: 'npm', title: 'NPM', href: 'https://www.npmjs.com/~jamesmessinger' },
-      { name: 'github', title: 'GitHub', href: 'https://github.com/JamesMessinger/' },
+      { name: 'github', title: 'GitHub', href: 'https://github.com/' },
       { name: 'travis-ci', title: 'Travis CI', href: 'https://travis-ci.org/JamesMessinger' },
       { name: 'appveyor', title: 'AppVeyor', href: 'https://ci.appveyor.com/projects' },
       { name: 'aws', title: 'AWS', href: 'https://JamesMessinger.signin.aws.amazon.com/console' },
@@ -47,7 +47,7 @@ window.onload =function() {
       { name: 'google-drive', title: 'Google Drive', href: 'https://drive.google.com/u/1' },
       { name: 'jira', title: 'JIRA', href: 'https://shipstation.atlassian.net/secure/RapidBoard.jspa?rapidView=87&projectKey=ENGINE' },
       { name: 'confluence', title: 'Confluence', href: 'https://shipstation.atlassian.net/wiki/spaces/DEV/overview' },
-      { name: 'github', title: 'GitHub', href: 'https://github.com/shipstation/' },
+      { name: 'github', title: 'GitHub', href: 'https://github.com/ShipEngine/' },
 
       { name: 'shipengine', title: 'ShipEngine Docs', href: 'https://docs.shipengine.com/docs' },
       { name: 'readme', title: 'ReadMe.io', href: 'https://dash.readme.io/project/shipengine-docs/v1/dashboard' },
