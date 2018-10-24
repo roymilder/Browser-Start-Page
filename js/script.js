@@ -47,7 +47,7 @@ window.onload =function() {
       { name: 'google-drive', title: 'Google Drive', href: 'https://drive.google.com/u/1' },
       { name: 'jira', title: 'JIRA', href: 'https://shipstation.atlassian.net/secure/RapidBoard.jspa?rapidView=87&projectKey=ENGINE' },
       { name: 'confluence', title: 'Confluence', href: 'https://shipstation.atlassian.net/wiki/spaces/DEV/overview' },
-      { name: 'github', title: 'GitHub', href: 'https://github.com/ShipEngine/' },
+      { name: 'github', title: 'GitHub', href: 'https://github.com/orgs/ShipEngine/dashboard' },
 
       { name: 'shipengine', title: 'ShipEngine Docs', href: 'https://docs.shipengine.com/docs' },
       { name: 'readme', title: 'ReadMe.io', href: 'https://dash.readme.io/project/shipengine-docs/v1/dashboard' },
@@ -67,7 +67,7 @@ window.onload =function() {
     [
       { name: 'twitter', title: 'Twitter', href: 'https://twitter.com/APIDevTools' },
       { name: 'npm', title: 'NPM', href: 'https://www.npmjs.com/~apidevtools' },
-      { name: 'github', title: 'GitHub', href: 'https://github.com/APIDevTools/' },
+      { name: 'github', title: 'GitHub', href: 'https://github.com/orgs/APIDevTools/dashboard' },
       { name: 'travis-ci', title: 'Travis CI', href: 'https://travis-ci.org/APIDevTools' },
       { name: 'appveyor', title: 'AppVeyor', href: 'https://ci.appveyor.com/projects' },
       { name: 'coveralls', title: 'Coveralls', href: 'https://coveralls.io/github/APIDevTools' },
@@ -80,7 +80,7 @@ window.onload =function() {
     [
       { name: 'twitter', title: 'Twitter', href: 'https://twitter.com/JS_DevTools' },
       { name: 'npm', title: 'NPM', href: 'https://www.npmjs.com/~jsdevtools' },
-      { name: 'github', title: 'GitHub', href: 'https://github.com/JS-DevTools/' },
+      { name: 'github', title: 'GitHub', href: 'https://github.com/orgs/JS-DevTools/dashboard' },
       { name: 'travis-ci', title: 'Travis CI', href: 'https://travis-ci.org/JS-DevTools' },
       { name: 'appveyor', title: 'AppVeyor', href: 'https://ci.appveyor.com/projects' },
       { name: 'coveralls', title: 'Coveralls', href: 'https://coveralls.io/github/JS-DevTools' },
