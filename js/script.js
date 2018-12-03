@@ -1,4 +1,4 @@
-window.onload =function() {
+(function() {
   'use strict';
 
   const tiles = [
@@ -104,16 +104,24 @@ window.onload =function() {
     tiles: document.querySelectorAll('li.tile'),
   };
 
-  // Select the first tab by default
-  selecttab(0);
 
-  // Allow tabs to be selected by clicking the icon or pressing the corresponding number key
-  elements.tabs.addEventListener('click', selecttabOnClick);
-  window.addEventListener('keypress', selecttabOnKeyPress);
+  /**
+   * One-time code that runs when the page first loads
+   */
+  function onLoad() {
+    // If a specific tab has been specified, then select it; otherwise, default to the first tab
+    let tab = getHashTab() || 0;
+    selectTab(tab);
 
-  // Remove animation classes when the animation finishes
-  for (let tileElement of elements.tiles) {
-    tileElement.addEventListener('animationend', animationFinished);
+    // Allow tabs to be selected by clicking the icon or pressing the corresponding number key
+    elements.tabs.addEventListener('click', selectTabOnClick);
+    window.addEventListener('keypress', selectTabOnKeyPress);
+    window.addEventListener('hashchange', selectTabOnHashChange);
+
+    // Remove animation classes when the animation finishes
+    for (let tileElement of elements.tiles) {
+      tileElement.addEventListener('animationend', animationFinished);
+    }
   }
 
 
@@ -122,12 +130,13 @@ window.onload =function() {
    * then attributes like data-href-1 and data-src-1 will be activated.  If tab === 2,
    * then attributes like data-href-2 and data-src-2 will be activated.
    */
-  function selecttab(tab) {
+  function selectTab(tab) {
     if (tiles.length - 1 < tab) {
       return;
     }
 
     elements.tabs.className = `tabs tab-${tab}`;
+    location.hash = `#tab-${tab}`;
 
     for (let [index, tileElement] of Object.entries(elements.tiles)) {
       let tile = tiles[tab][index] || {};
@@ -152,17 +161,19 @@ window.onload =function() {
 
 
   function animationFinished(event) {
-    event.srcElement.classList.remove('animated', animation);
+    event.target.classList.remove('animated', animation);
   }
 
 
   /**
    * Whenever a tab icon is clicked, selects the corresponding tab
    */
-  function selecttabOnClick(event) {
-    if (event.srcElement) {
-      let tab = event.srcElement.getAttribute('data-tab');
-      selecttab(parseInt(tab));
+  function selectTabOnClick(event) {
+    if (event.target) {
+      let tab = event.target.getAttribute('data-tab');
+      if (tab) {
+        selectTab(parseInt(tab));
+      }
     }
   }
 
@@ -170,10 +181,34 @@ window.onload =function() {
   /**
    * Whenever a number key is pressed, selects the corresponding tab
    */
-  function selecttabOnKeyPress(event) {
+  function selectTabOnKeyPress(event) {
     if (/\d/.test(event.key)) {
       // It's a number key, so select the corresponding tab
-      selecttab(parseInt(event.key) - 1);
+      selectTab(parseInt(event.key) - 1);
     }
   }
-}
+
+
+  /**
+   * Whenever the URL hash changes, select the corresponding tab
+   */
+  function selectTabOnHashChange() {
+    let tab = getHashTab();
+    if (tab !== undefined) {
+      selectTab(tab);
+    }
+  }
+
+  /**
+   * Returns the tab number from the URL hash
+   */
+  function getHashTab() {
+    let match = /tab-(\d)/.exec(location.hash);
+    if (match) {
+      return parseInt(match[1]);
+    }
+  }
+
+
+  window.onload = onLoad;
+}())
