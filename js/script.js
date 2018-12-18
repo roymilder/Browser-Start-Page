@@ -22,7 +22,7 @@
       { name: 'github', title: 'GitHub', href: 'https://github.com/' },
       { name: 'myrepos', title: 'All My GitHub Repos', href: 'https://myrepos.io/#u=ShipEngine,APIDevTools,JS-DevTools,JamesMessinger' },
       { name: 'travis-ci', title: 'Travis CI', href: 'https://travis-ci.com/JamesMessinger' },
-      { name: 'appveyor', title: 'AppVeyor', href: 'https://ci.appveyor.com/projects' },
+      { name: '', title: '', href: '' },
       { name: 'aws', title: 'AWS', href: 'https://JamesMessinger.signin.aws.amazon.com/console' },
 
       { name: 'hulu', title: 'Hulu', href: 'https://hulu.com' },
@@ -71,10 +71,9 @@
       { name: 'github', title: 'GitHub', href: 'https://github.com/orgs/APIDevTools/dashboard' },
       { name: 'myrepos', title: 'All My GitHub Repos', href: 'https://myrepos.io/#u=ShipEngine,APIDevTools,JS-DevTools,JamesMessinger' },
       { name: 'travis-ci', title: 'Travis CI', href: 'https://travis-ci.com/APIDevTools' },
-      { name: 'appveyor', title: 'AppVeyor', href: 'https://ci.appveyor.com/projects' },
       { name: 'coveralls', title: 'Coveralls', href: 'https://coveralls.io/github/APIDevTools' },
-
       { name: 'google', title: 'Google Search Console', href: 'https://search.google.com/search-console?resource_id=https%3A%2F%2Fapidevtools.org%2F' },
+
       { name: 'google-analytics', title: 'Google Analytics', href: 'https://analytics.google.com/analytics/web/#/report-home/a68102273w185957515p183035844' },
     ],
 
@@ -85,10 +84,9 @@
       { name: 'github', title: 'GitHub', href: 'https://github.com/orgs/JS-DevTools/dashboard' },
       { name: 'myrepos', title: 'All My GitHub Repos', href: 'https://myrepos.io/#u=ShipEngine,APIDevTools,JS-DevTools,JamesMessinger' },
       { name: 'travis-ci', title: 'Travis CI', href: 'https://travis-ci.com/JS-DevTools' },
-      { name: 'appveyor', title: 'AppVeyor', href: 'https://ci.appveyor.com/projects' },
       { name: 'coveralls', title: 'Coveralls', href: 'https://coveralls.io/github/JS-DevTools' },
-
       { name: 'google', title: 'Google Search Console', href: 'https://search.google.com/search-console?resource_id=https%3A%2F%2Fjsdevtools.org%2F' },
+
       { name: 'google-analytics', title: 'Google Analytics', href: 'https://analytics.google.com/analytics/web/#/report-home/a68102273w186217806p183251220' },
     ],
   ];
